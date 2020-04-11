@@ -1,5 +1,17 @@
 :root {
-  --bgColor_body: rgba(93.0%, 93.0%, 93.0%, 1.0);
+  --bgColorBase_principal: #f3f3f3;
+  --bgColorDark_principal: #4c4c4c;
+  --bgColorLight_principal: #fff;
+
+  --colorTitles_principal: #3e3e3e;
+  --colorAlerts_principal: #db5130;
+  --colorTexts_principal: #737373;
+  --colorText_random1: #5083ae;
+  --colorText_random2: #6da0a1;
+  --colorText_random3: #deb164;
+  --colorText_random4: #be5d45;
+
+  --colorLinesDivision_principal: #f3f3f3;
 }
 
 *, *::after, *::before {
@@ -9,4 +21,5 @@
 
 body {
   background-color: var(--bgColor_body);
+  color: var(--colorPrincipal_text);
 }
