@@ -12,7 +12,7 @@ body {
   font-size: var(--fontSizeBase);
   padding-left: var(--paddingSides_body);
   padding-right: var(--paddingSides_body);
-  background-color: var(--bgColor_body);
+  background-color: var(--bgColorBase_principal);
   color: var(--colorPrincipal_text);
 }
 
