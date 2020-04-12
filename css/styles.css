@@ -1,9 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bellota:ital@1&display=swap');
+
+
 :root {
   --bgColorBase_principal: #f3f3f3;
   --bgColorDark_principal: #4c4c4c;
   --bgColorLight_principal: #fff;
 
   --colorTitles_principal: #3e3e3e;
+  --colorBrand_principal: #d54d4d;
   --colorAlerts_principal: #db5130;
   --colorTexts_principal: #737373;
   --colorText_random1: #5083ae;
@@ -12,6 +21,14 @@
   --colorText_random4: #be5d45;
 
   --colorLinesDivision_principal: #f3f3f3;
+
+  --paddingSides_body: 20px;
+
+  --fontSizeBase-minimus: 16px;
+  --fontSizeBase: var(--fontSizeBase-minimus);
+  --fontFamily_principal: "Roboto", sans-serif;
+  --fontFamily_titles: 'PT Sans', "Ubuntu", sans-serif;
+  --fontFamily_logo: 'Bellota', cursive;
 }
 
 *, *::after, *::before {
@@ -19,7 +36,33 @@
   margin: 0;
 }
 
+html {
+  font-size: var(--fontSizeBase);
+}
+
 body {
+  font-family: var(--fontFamily_principal);
+  font-size: var(--fontSizeBase);
+  padding-left: var(--paddingSides_body);
+  padding-right: var(--paddingSides_body);
   background-color: var(--bgColor_body);
   color: var(--colorPrincipal_text);
+}
+
+li {
+  list-style: none;
+}
+
+.header__logo {
+  font-size: 56px;
+  font-weight: 900;
+  font-family: var(--fontFamily_logo);
+}
+
+.header__logo span:nth-last-child(1) {
+  color: var(--colorBrand_principal);
+}
+
+h1, h2, h3 {
+  font-family: var(--fontFamily_titles);
 }
