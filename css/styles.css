@@ -7,3 +7,12 @@
 
 /* Logo */
 @import url(./Logo.css);
+
+/* Menu Icon */
+@import url(./MenuIcon.css);
+
+/* HEADER */
+@import url(./Header.css);
+
+/* FOOTER */
+@import url(./Footer.css);

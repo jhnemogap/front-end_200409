@@ -1,6 +1,11 @@
-*, *::after, *::before {
+*, *::after, *::before, html {
+  box-sizing: border-box;
   padding: 0;
   margin: 0;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
 }
 
 html {
@@ -9,17 +14,34 @@ html {
 
 body {
   font-family: var(--fontFamily_principal);
-  font-size: var(--fontSizeBase);
+  font-size: var(--fontSize_base);
   padding-left: var(--paddingSides_body);
   padding-right: var(--paddingSides_body);
   background-color: var(--bgColorBase_principal);
-  color: var(--colorPrincipal_text);
+  color: var(--colorTexts_principal);
 }
 
 h1, h2, h3 {
+  color: var(--colorTitles_principal);
   font-family: var(--fontFamily_titles);
 }
 
+a {
+  color: var(--colorTexts_principal);
+  text-decoration: none;
+}
+
 li {
-  list-style: none;
+  list-style-type: none;
+}
+
+button {
+  border: none;
+  background-color: inherit;
+}
+
+input, button {
+  outline: none;
+  font-size: inherit;
+  font-family: inherit;
 }

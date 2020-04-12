@@ -23,8 +23,8 @@
 
   --paddingSides_body: 20px;
 
-  --fontSizeBase-minimus: 16px;
-  --fontSizeBase: var(--fontSizeBase-minimus);
+  --fontSize_base--minimus: 16px;
+  --fontSize_base: var(--fontSize_base--minimus);
   --fontFamily_principal: "Roboto", sans-serif;
   --fontFamily_titles: 'PT Sans', "Ubuntu", sans-serif;
   --fontFamily_logo: 'Bellota', cursive;

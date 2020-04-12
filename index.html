@@ -11,17 +11,33 @@
   <div class="app">
     <header class="header">
       <div class="header-container">
-        <div class="logo header__logo">
-          <span>Empresa</span><span>.com</span>
-        </div>
+        <a href="/">
+          <div class="logo header__logo">
+            <span>Empresa</span><span>.com</span>
+          </div>
+        </a>
 
-        <nav class="nav-principal header__nav">
-          <li>Inicio</li>
-          <li>Acerca</li>
-          <li>Servicios</li>
-          <li>Productos</li>
-          <li>Contacto</li>
-        </nav>
+        <button
+          type='button'
+          class='header__menu-icon'
+          onClick={doVisibleNav}
+        >
+          <div class='menu-icon'>
+            <div class='menu-icon__bar'></div>
+            <div class='menu-icon__bar menu-icon__bar--middle'></div>
+            <div class='menu-icon__bar'></div>
+          </div>
+        </button>
+
+        <button type="button" id="header__nav" class="header__nav header__nav--hidden">
+          <nav class="nav header__nav">
+            <a class="nav__item" href="/">Inicio</a>
+            <a class="nav__item" href="/">Acerca</a>
+            <a class="nav__item" href="/">Servicios</a>
+            <a class="nav__item" href="/">Productos</a>
+            <a class="nav__item" href="/">Contacto</a>
+          </nav>
+        </button>
       </div>
     </header>
 

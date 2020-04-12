@@ -1,0 +1,15 @@
+.header-container {
+  display: grid;
+  grid-template: auto auto / auto 1fr auto;
+  padding: 16px 0 24px 0;
+  border-bottom: solid 1px var(--bgColorDark_principal);
+}
+
+.header__menu-icon {
+  grid-column-start: 3;
+}
+
+.header__menu-icon:hover {
+  cursor: pointer;
+  background-color: rgba(--bgColorDark_principal, 20%);
+}

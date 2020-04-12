@@ -1,7 +1,8 @@
 .logo {
-  font-size: 56px;
+  font-size: calc(2 * var(--fontSize_base));
   font-weight: 900;
   font-family: var(--fontFamily_logo);
+  color: var(--colorTitles_principal);
 }
 
 .logo span:nth-last-child(1) {
