@@ -1,0 +1,9 @@
+.logo {
+  font-size: 56px;
+  font-weight: 900;
+  font-family: var(--fontFamily_logo);
+}
+
+.logo span:nth-last-child(1) {
+  color: var(--colorBrand_principal);
+}
