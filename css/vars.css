@@ -11,8 +11,8 @@
   --bgColorLight_principal: #fff;
 
   --colorTitles_principal: #3e3e3e;
-  --colorBrand_principal: #d54d4d;
-  --colorAlerts_principal: #db5130;
+  --colorBrand_principal: #db5130;
+  --colorAlerts_principal: #f00;
   --colorTexts_principal: #737373;
   --colorText_random1: #5083ae;
   --colorText_random2: #6da0a1;
@@ -23,8 +23,8 @@
 
   --paddingSides_body: 20px;
 
-  --fontSizeBase-minimus: 16px;
-  --fontSizeBase: var(--fontSizeBase-minimus);
+  --fontSize_base--minimus: 16px;
+  --fontSize_base: var(--fontSize_base--minimus);
   --fontFamily_principal: "Roboto", sans-serif;
   --fontFamily_titles: 'PT Sans', "Ubuntu", sans-serif;
   --fontFamily_logo: 'Bellota', cursive;
