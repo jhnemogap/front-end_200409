@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./css/styles.css">
-  <link rel="stylesheet" href="./css/Home.css">
+  <link rel="stylesheet" type="text/css" href="./css/styles.css">
+  <link rel="stylesheet" type="text/css" href="./css/Home.css">
   <title>Empresa.com</title>
 </head>
 <body>
@@ -17,19 +17,25 @@
           </div>
         </a>
 
-        <button
-          type='button'
-          class='header__menu-icon'
-          onClick={doVisibleNav}
-        >
-          <div class='menu-icon'>
-            <div class='menu-icon__bar'></div>
-            <div class='menu-icon__bar menu-icon__bar--middle'></div>
-            <div class='menu-icon__bar'></div>
-          </div>
-        </button>
+        <div class="header__menu-icon">
+          <button
+            type='button'
+            class='menu-icon'
+            onClick={doVisibleNav}
+          >
+            <div class='menu-icon__container'>
+              <div class='menu-icon__bar'></div>
+              <div class='menu-icon__bar menu-icon__bar--middle'></div>
+              <div class='menu-icon__bar'></div>
+            </div>
+          </button>
+        </div>
 
-        <button type="button" id="header__nav" class="header__nav header__nav--hidden">
+        <button
+          type="button"
+          id="header__nav"
+          class="header__nav header__nav--hidden"
+          >
           <nav class="nav header__nav">
             <a class="nav__item" href="/">Inicio</a>
             <a class="nav__item" href="/">Acerca</a>

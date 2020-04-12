@@ -1,6 +1,15 @@
 .menu-icon {
-  --width-menuIcon__bars: calc(var(--fontSize_base) * 1.5);
-  --height-menuIcon__bar: calc(var(--fontSize_base) / 9);
+  height: fit-content;
+}
+
+.menu-icon:hover {
+  background-color: #e6e6e6;
+  box-shadow: #8d8d8d 1px 2px 4px 2px;
+}
+
+.menu-icon__container {
+  --width-menuIcon__bars: calc(var(--fontSize_base) * 2.0);
+  --height-menuIcon__bar: calc(var(--fontSize_base) / 6);
   --height-menuIcon__bars: calc(var(--height-menuIcon__bar) * 8);
   --margin-menuIcon-bar--middle: calc((var(--height-menuIcon__bars) - 3 * var(--height-menuIcon__bar)) / 2);
 

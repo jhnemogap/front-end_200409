@@ -1,3 +1,9 @@
+/* Logo */
+@import url(./Logo.css);
+
+/* NAV */
+@import url(./Nav.css);
+
 .header-container {
   display: grid;
   grid-template: auto auto / auto 1fr auto;
@@ -7,9 +13,24 @@
 
 .header__menu-icon {
   grid-column-start: 3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .header__menu-icon:hover {
   cursor: pointer;
-  background-color: rgba(--bgColorDark_principal, 20%);
+}
+
+.header__nav {
+  grid-row-start: 2;
+  grid-column: 1 / 4;
+}
+
+.header__nav--hidden {
+  display: none
+}
+
+.header__nav--visible {
+  display: block
 }
