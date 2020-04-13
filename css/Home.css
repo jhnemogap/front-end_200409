@@ -27,15 +27,13 @@
 /* A S I D E */
 .extra-info {
   display: grid;
-  grid-template-columns: repeat(1, 1fr);
-  column-gap: 1em;
+  grid-template-columns: 1fr;
   row-gap: 1.4em;
 }
 
 .extra-info__item {
   width: 100%;
   min-width: 15.0rem;
-  max-width: 26rem;
   min-height: min-content;
   padding: 0 1em 1em;
 }

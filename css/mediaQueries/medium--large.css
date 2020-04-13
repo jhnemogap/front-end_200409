@@ -6,4 +6,17 @@
   .cards-service__item {
     width: 22vw;
   }
+
+  .extra-info {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    column-gap: 1.4em;
+  }
+
+  .extra-info__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 0.9em;
+  }
 }

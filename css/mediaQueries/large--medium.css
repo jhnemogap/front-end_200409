@@ -1,10 +1,10 @@
 @media screen {
   :root {
-    --fontSize_base: calc(1rem + 8px);
+    --fontSize_base: calc(1rem + 6px);
   }
 
   .app {
-    max-width: 1600px;
+    max-width: 1400px;
     box-shadow: var(--bgColorDark_principal) -2px 0px 8px 4px;
   }
 
