@@ -8,8 +8,8 @@
   }
 
   .extra-info {
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr) auto;
+    grid-template-rows: 1fr;
     column-gap: 1.4em;
   }
 
