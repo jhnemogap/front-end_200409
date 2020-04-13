@@ -2,6 +2,13 @@
   width: min-content;
   border: solid 1.4px var(--bgColorDark_principal);
   background-color: var(--bgColorLight_principal);
+  transform: scale(1);
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.card:hover {
+  box-shadow: 0px 4px 8px 2px var(--bgColorDark_principal);
+  transform: scale(1.05);
 }
 
 .card__image {
