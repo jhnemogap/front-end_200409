@@ -1,0 +1,9 @@
+@media screen {
+  :root {
+    --fontSize_base: calc(1rem + 4px);
+  }
+
+  .cards-service__item {
+    width: 34vw;
+  }
+}

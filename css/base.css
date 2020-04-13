@@ -9,7 +9,7 @@
 }
 
 html {
-  font-size: var(--fontSizeBase);
+  font-size: var(--fontSizeBase_minimus);
 }
 
 body {

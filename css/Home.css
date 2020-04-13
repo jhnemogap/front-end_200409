@@ -14,10 +14,15 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
 }
 
 .cards-service__item {
+  font-size: var(--fontSize_base);
   margin-bottom: 1.6em;
+  min-width: fit-content;
+  max-width: 16em;
+  width: 62.5vw;
 }
 
 /* A S I D E */

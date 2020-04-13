@@ -1,18 +1,17 @@
-
 /* VARIABLES */
-@import url(./vars.css);
+@import url(vars.css);
 
 /* BASE FOR ALL */
-@import url(./base.css);
+@import url(base.css);
 
 /* Menu Icon */
-@import url(./MenuIcon.css);
+@import url(MenuIcon.css);
 
 /* Read More */
-@import url(./ReadMore.css);
+@import url(ReadMore.css);
 
 /* HEADER */
-@import url(./Header.css);
+@import url(Header.css);
 
 /* FOOTER */
-@import url(./Footer.css);
+@import url(Footer.css);

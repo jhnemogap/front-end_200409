@@ -1,0 +1,9 @@
+@media screen {
+  .cards-service {
+    justify-content: space-between;
+  }
+
+  .cards-service__item {
+    width: 22vw;
+  }
+}

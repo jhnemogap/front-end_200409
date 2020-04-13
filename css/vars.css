@@ -32,9 +32,10 @@
 
   --icon_angleRight: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjxzdmcgaGVpZ2h0PSIxNzkyIiB2aWV3Qm94PSIwIDAgMTc5MiAxNzkyIiB3aWR0aD0iMTc5MiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNMTE3MSA5NjBxMCAxMy0xMCAyM2wtNDY2IDQ2NnEtMTAgMTAtMjMgMTB0LTIzLTEwbC01MC01MHEtMTAtMTAtMTAtMjN0MTAtMjNsMzkzLTM5My0zOTMtMzkzcS0xMC0xMC0xMC0yM3QxMC0yM2w1MC01MHExMC0xMCAyMy0xMHQyMyAxMGw0NjYgNDY2cTEwIDEwIDEwIDIzeiIvPjwvc3ZnPg==);
 
-  --mediaQuery_small--medium: 479px;
-  --mediaQuery_medium--small: 579px;
-  --mediaQuery_medium--medium: 719px;
+  --mediaQuery_small--medium: 459px;
+  --mediaQuery_small--large: 579px;
+  --mediaQuery_small--extra: 639px;
+  --mediaQuery_medium--small: 719px;
   --mediaQuery_medium--large: 1023px;
   --mediaQuery_large--small: 1279px;
   --mediaQuery_large--medium: 1365px;
