@@ -13,7 +13,8 @@
 
 .card__image {
   min-width: 12.5rem;
-  width: 19.5vw;
+  max-width: 14.0rem;
+  width: 60vw;
 }
 
 .card__text {

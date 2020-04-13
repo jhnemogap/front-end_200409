@@ -15,8 +15,6 @@ html {
 body {
   font-family: var(--fontFamily_principal);
   font-size: var(--fontSize_base);
-  padding-left: var(--paddingSides_body);
-  padding-right: var(--paddingSides_body);
   background-color: var(--bgColorBase_principal);
   color: var(--colorTexts_principal);
 }
@@ -44,4 +42,9 @@ input, button {
   outline: none;
   font-size: inherit;
   font-family: inherit;
+}
+
+.app {
+  padding-left: var(--paddingSides_body);
+  padding-right: var(--paddingSides_body);
 }
