@@ -4,10 +4,19 @@
 .main-title {
   padding-bottom: var(--fontSize_base);
   margin-top: 1.0em;
-  margin-bottom: 1.0em;
+  margin-bottom: 2.0em;
   text-align: center;
   line-height: 1.4;
   border-bottom: 1px solid var(--bgColorDark_principal);
+}
+
+.main-title__title {
+  font-size: 3.0em;
+  font-weight: 500;
+}
+
+.main-title_descrip {
+  font-size: 1.4em;
 }
 
 .cards-service {
@@ -35,7 +44,7 @@
   width: 100%;
   min-width: 15.0rem;
   min-height: min-content;
-  padding: 0 1em 1em;
+  padding-right: 1em;
 }
 
 .abstract-info {
@@ -43,6 +52,7 @@
 }
 
 .abstract-info__title {
+  font-size: 1.8em;
   padding-bottom: 0.08em;
   margin-bottom: 1.0em;
   border-bottom: 1px solid var(--bgColorDark_principal);

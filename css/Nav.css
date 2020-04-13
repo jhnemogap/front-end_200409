@@ -1,11 +1,14 @@
 .nav {
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 .nav__item {
+  display: inline-block;
+  font-size: 1.125rem;
   width: 100%;
-  padding: 0.4em 0em;
+  padding: 0.4rem 1.4rem;
   text-transform: capitalize;
   text-align: center;
   line-height: 21px;
@@ -14,7 +17,6 @@
 
 .nav__item:hover {
   font-weight: bold;
-  font-size: 1.2em;
   color: var(--bgColorBase_principal);
   background-color: var(--colorAlerts_principal);
 }

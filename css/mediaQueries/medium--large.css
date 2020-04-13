@@ -1,4 +1,35 @@
 @media screen {
+  .header-container {
+    grid-template: auto / auto 1fr;
+  }
+
+  .header__menu-icon {
+    display: none;
+  }
+
+  .header__nav {
+    grid-row-start: 1;
+    grid-column: 2 / 3;
+  }
+
+  .header__nav--hidden {
+    display: block;
+  }
+
+  .nav {
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+
+  .nav__item {
+    width: auto;
+    margin: 0 0.6rem;
+  }
+
+  .main-title_descrip {
+    font-size: 1.8em;
+  }
+
   .cards-service {
     justify-content: space-between;
   }
@@ -8,7 +39,7 @@
   }
 
   .extra-info {
-    grid-template-columns: repeat(2, 1fr) auto;
+    grid-template-columns: repeat(2, 1fr) 1.06fr;
     grid-template-rows: 1fr;
     column-gap: 1.4em;
   }
