@@ -18,10 +18,9 @@
 }
 
 .cards-service__item {
-  font-size: var(--fontSize_base);
   margin-bottom: 1.6em;
   min-width: fit-content;
-  max-width: 16em;
+  max-width: 16rem;
   width: 62.5vw;
 }
 

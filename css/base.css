@@ -13,6 +13,8 @@ html {
 }
 
 body {
+  display: flex;
+  justify-content: center;
   font-family: var(--fontFamily_principal);
   font-size: var(--fontSize_base);
   background-color: var(--bgColorBase_principal);
@@ -45,6 +47,8 @@ input, button {
 }
 
 .app {
+  width: 100%;
   padding-left: var(--paddingSides_body);
   padding-right: var(--paddingSides_body);
+  background-color: var(--bgColorBase_principal);
 }

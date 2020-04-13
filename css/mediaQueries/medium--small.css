@@ -4,6 +4,7 @@
   }
 
   .cards-service__item {
-    width: 34vw;
+    max-width: 20rem;
+    width: 42vw;
   }
 }
