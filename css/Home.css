@@ -22,11 +22,45 @@
 }
 
 .extra-info__item {
-  margin-bottom: 1.6em;
+  margin-bottom: 2.4em;
+}
+
+.abstract-info {
+  line-height: 1.8;
 }
 
 .abstract-info__title {
-  padding-bottom: 0.3em;
+  padding-bottom: 0.08em;
   margin-bottom: 1.0em;
   border-bottom: 1px solid var(--bgColorDark_principal);
+}
+
+.abstract-info__descrip, .abstract-info__descrip p {
+  margin-bottom: 1.6em;
+}
+
+.abstract-info-article p:first-child {
+  font-weight: bold;
+}
+
+.aux-nav-ul__item {
+  display: block;
+  line-height: 2.4;
+  color: var(--colorBrand_principal);
+  font-weight: bold;
+}
+
+.aux-nav-ul__item:hover {
+  color: var(--colorTitles_principal);
+  text-decoration: underline;
+  text-shadow: 2px -2px 4px var(--bgColorLight_principal);
+}
+
+.aux-nav-ul__item::before {
+  content: "";
+  display: inline-block;
+  background-image: var(--icon_angleRight);
+  background-size: var(--fontSize_base) var(--fontSize_base);
+  height: var(--fontSize_base);
+  width: var(--fontSize_base);
 }

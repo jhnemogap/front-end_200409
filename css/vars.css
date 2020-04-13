@@ -14,6 +14,7 @@
   --colorBrand_principal: #db5130;
   --colorAlerts_principal: #f00;
   --colorTexts_principal: #555;
+  --colorTexts_secondary: #ddd;
   --colorText_random1: #5083ae;
   --colorText_random2: #6da0a1;
   --colorText_random3: #deb164;
@@ -28,4 +29,6 @@
   --fontFamily_principal: "Roboto", sans-serif;
   --fontFamily_titles: 'PT Sans', "Ubuntu", sans-serif;
   --fontFamily_logo: 'Bellota', cursive;
+
+  --icon_angleRight: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjxzdmcgaGVpZ2h0PSIxNzkyIiB2aWV3Qm94PSIwIDAgMTc5MiAxNzkyIiB3aWR0aD0iMTc5MiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNMTE3MSA5NjBxMCAxMy0xMCAyM2wtNDY2IDQ2NnEtMTAgMTAtMjMgMTB0LTIzLTEwbC01MC01MHEtMTAtMTAtMTAtMjN0MTAtMjNsMzkzLTM5My0zOTMtMzkzcS0xMC0xMC0xMC0yM3QxMC0yM2w1MC01MHExMC0xMCAyMy0xMHQyMyAxMGw0NjYgNDY2cTEwIDEwIDEwIDIzeiIvPjwvc3ZnPg==);
 }
