@@ -1,0 +1,14 @@
+@media screen {
+  :root {
+    --fontSize_base: calc(1rem + 6px);
+  }
+
+  .app {
+    max-width: 1440px;
+    box-shadow: var(--bgColorDark_principal) -2px 0px 8px 4px;
+  }
+
+  .cards-service__item {
+    max-width: 18.75rem;
+  }
+}

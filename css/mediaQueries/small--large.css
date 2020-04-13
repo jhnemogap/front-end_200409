@@ -1,0 +1,5 @@
+@media screen {
+  :root {
+    --fontSize_base: calc(1rem + 2px);
+  }
+}

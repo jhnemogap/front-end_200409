@@ -3,12 +3,22 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <link rel="stylesheet" type="text/css" href="css/styles.css" media="all">
   <link rel="stylesheet" type="text/css" href="css/Home.css">
+
+  <link rel="stylesheet" type="text/css" href="css/mediaQueries/small--medium.css" media="screen and (min-width:459px)">
+
+  <link rel="stylesheet" type="text/css" href="css/mediaQueries/small--large.css" media="screen and (min-width:579px)">
+
+  <link rel="stylesheet" type="text/css" href="css/mediaQueries/medium--small.css" media="screen and (min-width:719px)">
+
+  <link rel="stylesheet" type="text/css" href="css/mediaQueries/medium--large.css" media="screen and (min-width:1023px)">
+
+  <link rel="stylesheet" type="text/css" href="css/mediaQueries/large--medium.css" media="screen and (min-width:1365px)">
   <title>Empresa.com</title>
 </head>
 <body>
-  <div class="app">
+  <div class="app" id="app">
     <header class="header">
       <div class="header-container">
         <a href="/">
@@ -66,7 +76,7 @@
             <a href="/">
               <div class="card cards-service__item">
                 <picture class="card__img">
-                  <source media="(max-width: 720px)" srcset="./images/consultoria_small.jpg">
+                  <source media="(max-width: 718px)" srcset="./images/consultoria_small.jpg">
                   <source media="(max-width: 1280px)" srcset="./images/consultoria_medium.jpg">
                   <img src="./images/consultoria_large.jpg" alt="Consultoría" class="card__image" />
                 </picture>
@@ -74,7 +84,7 @@
                   <h3 class="card__text-title">
                     Consultoría
                   </h3>
-                  <p class="card__text-description">
+                  <p class="card__text-descrip">
                     Praesentium inventore quibusdam est neque. Sed aliquid deret...
                   </p>
                 </div>
@@ -84,7 +94,7 @@
             <a href="/">
               <div class="card cards-service__item">
                 <picture class="card__img">
-                  <source media="(max-width: 720px)" srcset="./images/formacion_small.jpg">
+                  <source media="(max-width: 718px)" srcset="./images/formacion_small.jpg">
                   <source media="(max-width: 1280px)" srcset="./images/formacion_medium.jpg">
                   <img src="./images/formacion_large.jpg" alt="Consultoría" class="card__image" />
                 </picture>
@@ -92,7 +102,7 @@
                   <h3 class="card__text-title">
                     Formación
                   </h3>
-                  <p class="card__text-description">
+                  <p class="card__text-descrip">
                     Praesentium inventore quibusdam est neque. Sed aliquid deret...
                   </p>
                 </div>
@@ -102,7 +112,7 @@
             <a href="/">
               <div class="card cards-service__item">
                 <picture class="card__img">
-                  <source media="(max-width: 720px)" srcset="./images/analisis_small.jpg">
+                  <source media="(max-width: 718px)" srcset="./images/analisis_small.jpg">
                   <source media="(max-width: 1280px)" srcset="./images/analisis_medium.jpg">
                   <img src="./images/analisis_large.jpg" alt="Consultoría" class="card__image" />
                 </picture>
@@ -110,7 +120,7 @@
                   <h3 class="card__text-title">
                     Análisis
                   </h3>
-                  <p class="card__text-description">
+                  <p class="card__text-descrip">
                     Praesentium inventore quibusdam est neque. Sed aliquid deret...
                   </p>
                 </div>
@@ -120,7 +130,7 @@
             <a href="/">
               <div class="card cards-service__item">
                 <picture class="card__img">
-                  <source media="(max-width: 720px)" srcset="./images/investigacion_small.jpg">
+                  <source media="(max-width: 718px)" srcset="./images/investigacion_small.jpg">
                   <source media="(max-width: 1280px)" srcset="./images/investigacion_medium.jpg">
                   <img src="./images/investigacion_large.jpg" alt="Consultoría" class="card__image" />
                 </picture>
@@ -128,7 +138,7 @@
                   <h3 class="card__text-title">
                     Investigación
                   </h3>
-                  <p class="card__text-description">
+                  <p class="card__text-descrip">
                     Praesentium inventore quibusdam est neque. Sed aliquid deret...
                   </p>
                 </div>
@@ -155,9 +165,11 @@
             </div>
           </div>
 
-          <a class="read-more abstract-info__link" href="#">
-            Leer más
-          </a>
+          <div>
+            <a class="read-more abstract-info__link" href="#">
+              Leer más
+            </a>
+          </div>
         </section>
 
         <section class="extra-info__item">
@@ -183,9 +195,11 @@
             </div>
           </div>
 
-          <a class="read-more abstract-info__link" href="#">
-            Leer más
-          </a>
+          <div>
+            <a class="read-more abstract-info__link" href="#">
+              Leer más
+            </a>
+          </div>
         </section>
 
         <section class="extra-info__item">
@@ -207,9 +221,11 @@
             </div>
           </div>
 
-          <a class="read-more abstract-info__link" href="#">
-            Leer más
-          </a>
+          <div>
+            <a class="read-more abstract-info__link" href="#">
+              Leer más
+            </a>
+          </div>
         </section>
       </aside>
     </div>

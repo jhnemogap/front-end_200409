@@ -12,9 +12,7 @@
 }
 
 .card__image {
-  min-width: 12.5rem;
-  max-width: 14.0rem;
-  width: 60vw;
+  width: 100%;
 }
 
 .card__text {
@@ -22,8 +20,14 @@
 }
 
 .card__text-title {
+  font-size: 1.4em;
   padding-left: 0.5em;
   padding-bottom: 0.4em;
   margin-bottom: 1.0em;
   border-bottom: 1px solid var(--bgColorDark_principal);
+}
+
+.card__text-descrip {
+  font-size: 0.9em;
+  line-height: 1.5;
 }

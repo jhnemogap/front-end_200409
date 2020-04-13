@@ -1,5 +1,5 @@
 .logo {
-  font-size: calc(2 * var(--fontSize_base));
+  font-size: 2.4em;
   font-weight: 900;
   font-family: var(--fontFamily_logo);
   color: var(--colorTitles_principal);

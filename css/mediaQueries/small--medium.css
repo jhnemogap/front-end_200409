@@ -1,0 +1,10 @@
+@media screen {
+  .cards-service {
+    justify-content: space-around;
+  }
+
+  .cards-service__item {
+    max-width: 16.0rem;
+    width: 39vw;
+  }
+}
