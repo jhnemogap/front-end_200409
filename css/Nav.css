@@ -13,6 +13,8 @@
 }
 
 .nav__item:hover {
+  font-weight: bold;
+  font-size: 1.2em;
   color: var(--bgColorBase_principal);
   background-color: var(--colorAlerts_principal);
 }

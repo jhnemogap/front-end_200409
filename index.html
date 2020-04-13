@@ -3,8 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" type="text/css" href="./css/styles.css">
-  <link rel="stylesheet" type="text/css" href="./css/Home.css">
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <link rel="stylesheet" type="text/css" href="css/Home.css">
+  <!-- <script defer src="js/index.js" type="module"></script> -->
   <title>Empresa.com</title>
 </head>
 <body>
@@ -21,8 +22,10 @@
           <button
             type='button'
             class='menu-icon'
-            onClick={doVisibleNav}
+            onclick="doVisibleNav()"
           >
+            <script defer src="js/menuIcon.js"></script>
+
             <div class='menu-icon__container'>
               <div class='menu-icon__bar'></div>
               <div class='menu-icon__bar menu-icon__bar--middle'></div>
@@ -35,7 +38,8 @@
           type="button"
           id="header__nav"
           class="header__nav header__nav--hidden"
-          >
+          onclick="doVisibleNav()"
+        >
           <nav class="nav header__nav">
             <a class="nav__item" href="/">Inicio</a>
             <a class="nav__item" href="/">Acerca</a>
