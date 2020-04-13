@@ -1,0 +1,21 @@
+.card {
+  width: min-content;
+  border: solid 1.4px var(--bgColorDark_principal);
+  background-color: var(--bgColorLight_principal);
+}
+
+.card__image {
+  min-width: 12.5rem;
+  width: 19.5vw;
+}
+
+.card__text {
+  padding: 0.6em 1.0em 3.0em;
+}
+
+.card__text-title {
+  padding-left: 0.5em;
+  padding-bottom: 0.4em;
+  margin-bottom: 1.0em;
+  border-bottom: 1px solid var(--bgColorDark_principal);
+}

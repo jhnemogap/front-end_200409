@@ -1,3 +1,5 @@
+@import url(./Card.css);
+
 .main-title {
   padding-bottom: var(--fontSize_base);
   margin-top: 1.0em;
@@ -7,3 +9,24 @@
   border-bottom: 1px solid var(--bgColorDark_principal);
 }
 
+.cards-service {
+  display: grid;
+  row-gap: 1.6em;
+  justify-items: center;
+  margin-bottom: 1.8em;
+}
+
+.extra-info {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.extra-info__item {
+  margin-bottom: 1.6em;
+}
+
+.abstract-info__title {
+  padding-bottom: 0.3em;
+  margin-bottom: 1.0em;
+  border-bottom: 1px solid var(--bgColorDark_principal);
+}
