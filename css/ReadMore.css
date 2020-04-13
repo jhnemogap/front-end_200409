@@ -1,0 +1,12 @@
+.read-more {
+  padding: 0.6em 1.6em;
+  font-weight: bold;
+  color: var(--colorTexts_secondary);
+  background-color: var(--colorTitles_principal);
+}
+
+.read-more:hover {
+  border: solid 2px var(--bgColorDark_principal);
+  color: var(--colorTitles_principal);
+  background-color: var(--colorTexts_secondary);
+}
