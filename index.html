@@ -33,34 +33,33 @@
 
         <div class="header__menu-icon">
           <button
-            type='button'
-            class='menu-icon'
-            onclick="doVisibleNav()"
+            type="button"
+            id="menu-icon-btn"
+            class="menu-icon-btn"
           >
-            <!-- <script defer src="js/menuIcon.js"></script> -->
-
-            <div class='menu-icon__container'>
-              <div class='menu-icon__bar'></div>
-              <div class='menu-icon__bar menu-icon__bar--middle'></div>
-              <div class='menu-icon__bar'></div>
+            <div class="menu-icon__container">
+              <div class="menu-icon__bar"></div>
+              <div class="menu-icon__bar menu-icon__bar--middle"></div>
+              <div class="menu-icon__bar"></div>
             </div>
           </button>
         </div>
 
-        <button
-          type="button"
-          id="header__nav"
-          class="header__nav header__nav--hidden"
-          onclick="doVisibleNav()"
-        >
-          <nav class="nav header__nav">
-            <a class="nav__item" href="/">Inicio</a>
-            <a class="nav__item" href="/">Acerca</a>
-            <a class="nav__item" href="/">Servicios</a>
-            <a class="nav__item" href="/">Productos</a>
-            <a class="nav__item" href="/">Contacto</a>
-          </nav>
-        </button>
+        <div id="header__nav" class="header__nav header__nav--hidden">
+          <button
+            type="button"
+            id="nav-btn"
+            class="nav-btn"
+          >
+            <nav class="nav">
+              <a class="nav__item" href="/">Inicio</a>
+              <a class="nav__item" href="/">Acerca</a>
+              <a class="nav__item" href="/">Servicios</a>
+              <a class="nav__item" href="/">Productos</a>
+              <a class="nav__item" href="/">Contacto</a>
+            </nav>
+          </button>
+        </div>
       </div>
     </header>
 
