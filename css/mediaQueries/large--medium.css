@@ -1,7 +1,10 @@
 @media screen {
   :root {
+    /* The base font is increased to improve the reading and size of the elements. */
     --fontSize_base: calc(1rem + 6px);
   }
+
+  /* ¡¡ Growth of page container and cards is limited !! */
 
   .app {
     max-width: 1440px;

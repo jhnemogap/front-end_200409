@@ -1,4 +1,6 @@
 @media screen {
+  /* +++ HEADER media queries +++ */
+
   .header-container {
     grid-template: auto / auto 1fr;
   }
@@ -31,6 +33,11 @@
     margin: 0 0.6rem;
   }
 
+
+  /* +++ HOME container media queries +++ */
+
+  /* + MAIN media queries + */
+
   .main-title_descrip {
     font-size: 1.8em;
   }
@@ -40,8 +47,11 @@
   }
 
   .cards-service__item {
+    /* Growth of cards is limited */
     width: 22vw;
   }
+
+  /* + ASIDE media queries + */
 
   .extra-info {
     grid-template-columns: repeat(2, 1fr) 1.06fr;

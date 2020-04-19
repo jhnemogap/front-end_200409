@@ -1,15 +1,19 @@
+
+/* +++++   VARIABLES for all project   +++++ */
+
+/* +++ Imports fonts to use  +++ */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
-
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
-
 @import url('https://fonts.googleapis.com/css2?family=Bellota:ital@1&display=swap');
 
-
+/* +++ Create style variables +++ */
 :root {
+  /* Colors for main backgrounds */
   --bgColorBase_principal: #f5f5f5;
   --bgColorDark_principal: #9c9c9c;
   --bgColorLight_principal: #fff;
 
+  /* Colors for text and others backgrounds */
   --colorTitles_principal: #3e3e3e;
   --colorBrand_principal: #db5130;
   --colorAlerts_principal: #f00;
@@ -19,19 +23,22 @@
   --colorText_random2: #6da0a1;
   --colorText_random3: #deb164;
   --colorText_random4: #be5d45;
-
   --colorLinesDivision_principal: #f3f3f3;
 
-  --paddingSides_body: 3vw;
-
+  /* Font sizes and families to use */
   --fontSize_base--minimus: 16px;
   --fontSize_base: var(--fontSize_base--minimus);
   --fontFamily_principal: "Roboto", sans-serif;
   --fontFamily_titles: 'PT Sans', "Ubuntu", sans-serif;
   --fontFamily_logo: 'Bellota', cursive;
 
+  /* Preset dimensions and distances */
+  --paddingSides_body: 3vw;
+
+  /* Symbols to use [.svg, .png, .ico] */
   --icon_angleRight: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjxzdmcgaGVpZ2h0PSIxNzkyIiB2aWV3Qm94PSIwIDAgMTc5MiAxNzkyIiB3aWR0aD0iMTc5MiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNMTE3MSA5NjBxMCAxMy0xMCAyM2wtNDY2IDQ2NnEtMTAgMTAtMjMgMTB0LTIzLTEwbC01MC01MHEtMTAtMTAtMTAtMjN0MTAtMjNsMzkzLTM5My0zOTMtMzkzcS0xMC0xMC0xMC0yM3QxMC0yM2w1MC01MHExMC0xMCAyMy0xMHQyMyAxMGw0NjYgNDY2cTEwIDEwIDEwIDIzeiIvPjwvc3ZnPg==);
 
+  /* Reference values for the media queries */
   --mediaQuery_small--medium: 459px;
   --mediaQuery_small--large: 579px;
   --mediaQuery_small--extra: 639px;

@@ -1,3 +1,5 @@
+/* Styles based on mobile first. The others in the corresponding media queries */
+
 .card {
   width: min-content;
   border: solid 1.4px var(--bgColorDark_principal);

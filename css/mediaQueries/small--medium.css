@@ -1,8 +1,10 @@
 @media screen {
+  /* Cards service item space around in flex wrap display */
   .cards-service {
     justify-content: space-around;
   }
 
+  /* The growth of the cards is adjusted */
   .cards-service__item {
     max-width: 16.0rem;
     width: 39vw;

@@ -1,8 +1,10 @@
 @media screen {
   :root {
+    /* The base font is increased to improve the reading and size of the elements. */
     --fontSize_base: calc(1rem + 4px);
   }
 
+  /* The growth of the cards is adjusted */
   .cards-service__item {
     max-width: 20rem;
     width: 42vw;
