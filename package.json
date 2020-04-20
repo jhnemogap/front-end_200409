@@ -27,13 +27,11 @@
   },
   "homepage": "https://github.com/jhnemogap/front-end_exercise_200409#readme",
   "devDependencies": {
-    "@babel/core": "^7.9.0",
-    "@babel/plugin-transform-runtime": "^7.9.0",
-    "@babel/preset-env": "^7.9.5",
-    "parcel-bundler": "^1.12.4"
+    "@babel/core": "7.9.0",
+    "@babel/plugin-transform-runtime": "7.9.0",
+    "@babel/preset-env": "7.9.5",
+    "parcel-bundler": "1.12.4",
+    "gh-pages": "2.2.0"
   },
-  "targets": "> 0.25%, not dead",
-  "dependencies": {
-    "gh-pages": "^2.2.0"
-  }
+  "targets": "> 0.25%, not dead"
 }
