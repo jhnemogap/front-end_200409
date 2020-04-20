@@ -4,7 +4,8 @@
   "description": "Front-end exercise 2020/04/09 by PlatziMaster",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "parcel serve index.html --no-source-maps --no-cache",
+    "build": "parcel build index.html --no-source-maps --out-dir build/"
   },
   "repository": {
     "type": "git",
@@ -21,5 +22,12 @@
   "bugs": {
     "url": "https://github.com/jhnemogap/front-end_exercise_200409/issues"
   },
-  "homepage": "https://github.com/jhnemogap/front-end_exercise_200409#readme"
+  "homepage": "https://github.com/jhnemogap/front-end_exercise_200409#readme",
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/plugin-transform-runtime": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
+    "parcel-bundler": "^1.12.4"
+  },
+  "targets": "> 0.25%, not dead"
 }

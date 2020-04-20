@@ -1,17 +1,17 @@
 /* VARIABLES for all project */
-@import url(vars.css);
+@import url(./vars.css);
 
 /* Base styles for specific classes or labels throughout the project */
-@import url(base.css);
+@import url(./base.css);
 
 /* Menu Icon (component) */
-@import url(MenuIcon.css);
+@import url(./MenuIcon.css);
 
 /* Read More style label (component) */
-@import url(ReadMore.css);
+@import url(./ReadMore.css);
 
 /* HEADER  styles (component) */
-@import url(Header.css);
+@import url(./Header.css);
 
 /* FOOTER styles (component) */
-@import url(Footer.css);
+@import url(./Footer.css);

@@ -3,6 +3,9 @@
  * @author @jhnemogap
 */
 
+const { doVisibleNav } = require('./menuIcon.js');
+const colorsTitleCards = require('./colorsTitleCards.js');
+
 /**
  * DOM elements - menu icon button and nav button
  * @global
