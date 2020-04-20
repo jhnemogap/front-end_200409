@@ -1,6 +1,12 @@
+/* Styles based on mobile first. The others in the corresponding media queries */
+
 @import url(./Card.css);
 
-/* M A I N */
+/*
+  +++++   M A I N section +++++
+*/
+
+/* +++ main title adjustments in the main +++ */
 .main-title {
   padding-bottom: var(--fontSize_base);
   margin-top: 1.0em;
@@ -19,6 +25,8 @@
   font-size: 1.4em;
 }
 
+
+/* +++ Cards services adjustments in the main +++ */
 .cards-service {
   display: flex;
   flex-wrap: wrap;
@@ -33,7 +41,12 @@
   width: 62.5vw;
 }
 
-/* A S I D E */
+
+/*
+  +++++   A S I D E section +++++
+*/
+
+/* +++ container section items adjustments in the aside +++ */
 .extra-info {
   display: grid;
   grid-template-columns: 1fr;
@@ -47,6 +60,8 @@
   padding-right: 1em;
 }
 
+
+/* +++ elements adjustments into section extra info item +++ */
 .abstract-info {
   line-height: 1.8;
 }

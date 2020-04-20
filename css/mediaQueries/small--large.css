@@ -1,5 +1,6 @@
 @media screen {
   :root {
+    /* The base font is increased to improve the reading and size of the elements. */
     --fontSize_base: calc(1rem + 2px);
   }
 }

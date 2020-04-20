@@ -1,3 +1,5 @@
+/* Styles based on mobile first. The others in the corresponding media queries */
+
 .read-more {
   display: inline-block;
   padding: 0.6em 1.6em;

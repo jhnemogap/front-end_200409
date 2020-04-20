@@ -3,31 +3,54 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- *****   Styles base for header, footer o small components   ***** -->
   <link rel="stylesheet" type="text/css" href="css/styles.css" media="all">
+  <!-- *****   styles for the Home container   *****
+    Replace this link with the one for the used container
+  -->
   <link rel="stylesheet" type="text/css" href="css/Home.css">
 
+  <!-- *****   Links of Media Queries   *****
+    For this exercise, the management of media queries is done through the html
+  -->
   <link rel="stylesheet" type="text/css" href="css/mediaQueries/small--medium.css" media="screen and (min-width:459px)">
   <link rel="stylesheet" type="text/css" href="css/mediaQueries/small--large.css" media="screen and (min-width:579px)">
   <link rel="stylesheet" type="text/css" href="css/mediaQueries/medium--small.css" media="screen and (min-width:719px)">
   <link rel="stylesheet" type="text/css" href="css/mediaQueries/medium--large.css" media="screen and (min-width:1023px)">
   <link rel="stylesheet" type="text/css" href="css/mediaQueries/large--medium.css" media="screen and (min-width:1365px)">
 
-  <script defer src="js/menuIcon.js"></script>
-  <script defer src="js/colorsTitleCars.js"></script>
-  <script defer src="js/index.js"></script>
+  <!-- *****   Links scripts JavaScript   ***** -->
+  <script defer type="application/javascript" src="js/menuIcon.js"></script>
+  <script defer type="application/javascript" src="js/colorsTitleCars.js"></script>
+  <!-- main javascript script -->
+  <script defer type="application/javascript" src="js/index.js"></script>
+
   <title>Empresa.com</title>
 </head>
 <body>
-  <div class="app" id="app">
+  <!-- A P P
+    Container general of APP
+    (in the future it is posible to use with framework front-end or JS context)
+  -->
+  <div id="app" class="app">
+    <!-- H E A D E R
+      this component contain logo and navBar
+    -->
     <header class="header">
       <div class="header-container">
+
+        <!-- header LOGO -->
         <a href="#">
+          <!-- logo (component) -->
           <div class="logo header__logo">
             <span>Empresa</span><span>.com</span>
           </div>
         </a>
+        <!-- End header logo -->
 
+        <!-- header  MENU  ICON -->
         <div class="header__menu-icon">
+          <!-- MenuIcon (component) -->
           <button
             type="button"
             id="menu-icon-btn"
@@ -39,9 +62,13 @@
               <div class="menu-icon__bar"></div>
             </div>
           </button>
+          <!-- End MenuIcon (component) -->
         </div>
+        <!-- End header menu icon -->
 
+        <!-- header  NAV -->
         <div id="header__nav" class="header__nav header__nav--hidden">
+          <!-- Nav (component) -->
           <button
             type="button"
             id="nav-btn"
@@ -55,13 +82,21 @@
               <a class="nav__item" href="#">Contacto</a>
             </nav>
           </button>
+          <!-- End Nav (component) -->
         </div>
+        <!-- End header nav -->
       </div>
     </header>
 
-    <div class="home">
+    <!-- A P P   P R I N C I P A L   C O N T A I N
+      Replace class for the apropiate container in use
+      (in the future it is posible to use with framework front-end or JS context)
+    -->
+    <div id="app-principal-contain" class="home">
+      <!-- MAIN section -->
       <main class="main-info">
         <div class="main-info__container">
+          <!-- Principal title of page (component) -->
           <div class="main-title">
             <h1 class="main-title__title">
               Soluciones corporativas
@@ -70,8 +105,11 @@
               Lorem ipsum dolor sit amet, consectetur adipisicing elit
             </p>
           </div>
+          <!-- End Principal title of page (component) -->
 
+          <!-- Cards services -->
           <div class="cards-service">
+            <!-- Card item (component encapsulated in an anchor) -->
             <a href="#">
               <div class="card cards-service__item">
                 <picture class="card__img">
@@ -90,9 +128,11 @@
                 </div>
               </div>
             </a>
+            <!-- End Card item (component encapsulated in an anchor) -->
 
+            <!-- Card item (component encapsulated in an anchor) -->
             <a href="#">
-              <div class="card cards-service__item">
+            <div class="card cards-service__item">
                 <picture class="card__img">
                   <source media="(max-width: 718px)" srcset="./images/formacion--small.webp">
                   <source media="(max-width: 1022px)" srcset="./images/formacion--medium.webp">
@@ -109,7 +149,9 @@
                 </div>
               </div>
             </a>
+            <!-- End Card item (component encapsulated in an anchor) -->
 
+            <!-- Card item (component encapsulated in an anchor) -->
             <a href="#">
               <div class="card cards-service__item">
                 <picture class="card__img">
@@ -126,7 +168,9 @@
                 </div>
               </div>
             </a>
+            <!-- End Card item(component encapsulated in an anchor)  -->
 
+            <!-- Card item (component encapsulated in an anchor) -->
             <a href="#">
               <div class="card cards-service__item">
                 <picture class="card__img">
@@ -145,11 +189,16 @@
                 </div>
               </div>
             </a>
+            <!-- End Card item (component encapsulated in an anchor) -->
           </div>
+          <!-- End Cards services -->
         </div>
       </main>
+      <!-- End main section -->
 
+      <!-- ASIDE section -->
       <aside class="extra-info">
+        <!-- Section (component) welcome into aside -->
         <section class="extra-info__item">
           <div class="abstract-info">
             <h2 class="abstract-info__title">
@@ -172,7 +221,9 @@
             </a>
           </div>
         </section>
+        <!-- End Section (component) welcome into aside -->
 
+        <!-- Section(component)  recent news into aside -->
         <section class="extra-info__item">
           <div class="abstract-info">
             <h2 class="abstract-info__title">
@@ -202,7 +253,9 @@
             </a>
           </div>
         </section>
+        <!-- End Section (component) recent news into aside -->
 
+        <!-- Section (component) our services -->
         <section class="extra-info__item">
           <div class="abstract-info">
             <h2 class="abstract-info__title">
@@ -228,10 +281,14 @@
             </a>
           </div>
         </section>
+        <!-- End Section (component) our services -->
       </aside>
+      <!-- End Aside section -->
     </div>
 
+    <!-- F O O T E R -->
     <footer class="footer"></footer>
+    <!-- FIN footer -->
   </div>
 </body>
 </html>

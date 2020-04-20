@@ -1,3 +1,10 @@
+/* Styles based on mobile first. The others in the corresponding media queries */
+
+/*
+  +++++ Basic Styles Settings +++++
+*/
+
+
 *, *::after, *::before, html {
   box-sizing: border-box;
   padding: 0;
@@ -9,6 +16,7 @@
 }
 
 html {
+  /* To ensure a general static value when using rem */
   font-size: var(--fontSizeBase_minimus);
 }
 

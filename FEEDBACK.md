@@ -1,5 +1,5 @@
 
-# Revisión de Proyecto 
+# Revisión de Proyecto
 
 Antes que nada, quiero felicitarte por el compromiso que has tenido con el Learning path y con el acoplarte al nuevo grupo en el que te toco estar
 
@@ -8,13 +8,13 @@ Antes que nada, quiero felicitarte por el compromiso que has tenido con el Learn
 
 Los puntos que voy a tocar aquí son sobre todo para mejorar y reforzar huecos que tenemos en algunas areas.
 
-# HTML
+## HTML
 
 Para la parte de HTML los puntos que hay que recalcar son sobre todo las buenas practicas.
 
-###  Bueno
+### Bueno
 
-- Buena identaci[on y espaciado
+- Buena indentation y espaciado
 - Buena estructura
 
 ### Malo
@@ -23,13 +23,13 @@ Para la parte de HTML los puntos que hay que recalcar son sobre todo las buenas 
 - No esta adecuado para ser escalable
 - Cuando se trabaje con caracteres especiales en HTML, se deben de escapar con referencias de caracteres e.g. Para mostrar "í" usa `&#237;` o `&iacute;` dependiendo de tu código de codificación.
 
-Tenemos buenas bases, solo hace falta reforzar a[un m[as nuestros conocimientos y darle m[as sentido a nuestros archivos.
+Tenemos buenas bases, solo hace falta reforzar aún más nuestros conocimientos y darle más sentido a nuestros archivos.
 Te recomiendo checar este repo y esta pagina para las etiquetas:
 [https://github.com/hail2u/html-best-practices#escape-----and--with-named-character-references](https://github.com/hail2u/html-best-practices#escape-----and--with-named-character-references)
 
 [https://www.w3schools.com/TAGS/default.ASP](https://www.w3schools.com/TAGS/default.ASP)
 
-# CSS
+## CSS
 
 Para esta parte lo que hay que tener en cuenta es la correcta documentación y buenas practicas
 
@@ -51,7 +51,7 @@ En general esta muy bien argumentado el css, solo nos hizo falta comunicar más 
 
 [https://css-tricks.com/guides/](https://css-tricks.com/guides/)
 
-# JS
+## JS
 
 ### Bueno
 
@@ -62,13 +62,12 @@ En general esta muy bien argumentado el css, solo nos hizo falta comunicar más 
 
 - **No documentamos nada**
 
-
 Para la parte de documentación revisa este sitio:
 [https://documentjs.com/docs/documentjs.tags.param.html](https://documentjs.com/docs/documentjs.tags.param.html)
-
 
 # CONCLUSIÓN
 
 Nos adelantamos a la parte de hacerlo responsive, pero la solución es entendible y al punto.
+
 Nos hacen falta cosas pequeñas, recuerda que este es tu medio para comunicarte con la empresa, sirve muchísimo que documentes tu código.
 **Debemos de seguir practicando.**
