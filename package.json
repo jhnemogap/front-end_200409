@@ -1,0 +1,25 @@
+{
+  "name": "front-end_exercise_200409",
+  "version": "1.0.0",
+  "description": "Front-end exercise 2020/04/09 by PlatziMaster",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jhnemogap/front-end_exercise_200409.git"
+  },
+  "keywords": [
+    "js",
+    "vanilla",
+    "html",
+    "css"
+  ],
+  "author": "@jhnemogap",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jhnemogap/front-end_exercise_200409/issues"
+  },
+  "homepage": "https://github.com/jhnemogap/front-end_exercise_200409#readme"
+}
