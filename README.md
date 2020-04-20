@@ -10,6 +10,12 @@ The page was intended to be presented mobile-first ([Link to Exercise](https://j
 
 **NOTE**: It was decided to make some visual improvements to the mockup to improve the presentation on different device sizes, specifically increasing the font size accordingly.
 
+### Documentation
+
+For this stage of the project, the html and css documentation was done in the same files with internal comments.
+
+The javascript files received internal comments using the base tag naming used by projects like `documentjs` or `JSDoc`; but without installing any dependency at the moment.
+
 ### Proposed file structure
 
 - **`index.html`**: all html web page in and entry point
