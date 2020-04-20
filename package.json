@@ -5,7 +5,10 @@
   "main": "index.html",
   "scripts": {
     "dev": "parcel serve index.html --no-source-maps --no-cache",
-    "build": "parcel build index.html --no-source-maps --out-dir build/"
+    "build": "parcel build index.html --no-source-maps --out-dir build/",
+    "build:gh-pages": "parcel build index.html --no-source-maps --out-dir build/ --public-url ./",
+    "deploy:gh-pages": "node_modules/gh-pages/bin/gh-pages.js -d build -b gh-pages -f",
+    "gh-pages:build:deploy": "npm run build:gh-pages && npm run deploy:gh-pages"
   },
   "repository": {
     "type": "git",
@@ -29,5 +32,8 @@
     "@babel/preset-env": "^7.9.5",
     "parcel-bundler": "^1.12.4"
   },
-  "targets": "> 0.25%, not dead"
+  "targets": "> 0.25%, not dead",
+  "dependencies": {
+    "gh-pages": "^2.2.0"
+  }
 }
