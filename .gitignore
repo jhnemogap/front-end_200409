@@ -104,4 +104,8 @@ dist
 .tern-port
 
 # Custom
-build/
+build/*
+
+#Cypress
+testCypress/cypress/screenshots/*
+testCypress/cypress/videos/*
