@@ -21,9 +21,9 @@ class AddEventsMassively {
 
   /**
    * @description Add event to click all elements.
-   * Event 1 to print in console id and count
-   * Event 2 change style in other element button
-   * Event 3 no propagate in specific elements in the navbar
+   * 1 to print in console id and count
+   * 2 change style in other element button
+   * 3 (opt) no propagate in specific elements in the navbar
   */
   active() {
     this.__aryAddEvent.map(function($item, index, $ary) {

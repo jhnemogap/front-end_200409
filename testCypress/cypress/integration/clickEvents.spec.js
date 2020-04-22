@@ -1,4 +1,11 @@
 /// <reference types="Cypress" />
+// ***********************************************************
+// Todo elemento que es considerado en aspecto un botón ejecuta
+// al momento del evento del clic:
+// - una impresión en consola de su id y cantidad de ejecuciones
+// - El cambio de una propiedad en el estilo de otro botón
+// - Para los tres primeros botones del navbar se detiene la propagación de eventos
+// ***********************************************************
 
 describe('Test for click events', function() {
   context('It should run the console.info twice when clicking on the any .nav__item', function() {
